@@ -60,3 +60,76 @@ html, body {
   margin-top: 5px;
   color: #888;
 }
+.restaurante-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.restaurante-header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.precio {
+  color: #e53935;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 4px;
+}
+
+.info-iconos {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 20px;
+  text-align: center;
+}
+
+.info-item {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  color: #e53935;
+}
+
+.info-item i {
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+
+.info-item span {
+  font-size: 1.5rem;
+  position: relative;
+  top: 20px;
+  color: #999;
+}
+
+.descripcion {
+     position: relative;
+  top: 50px;
+  font-size: 1.2rem;         
+  color: #c2c2c2;
+  line-height: 1.6;
+  max-width: 85%;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  font-weight: 150;
+}
+
+
+.navegador {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+  background-color: white;
+  color: gray;
+  margin-top: 250px;
+}
+
+.navegador a {
+  color: gray;
+  text-decoration: none;
+}
