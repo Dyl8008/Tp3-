@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.header {
+  height: 50px;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.header h1 {
+text-align: center;
+font-size: 1.5rem;
+color: gray;
+}
+
+.subtitulo{
+    text-align: center;
+    margin-top: 10px;}
+
+.subtitulo h2{
+    text-align: center;
+    font-size: 1.2rem;
+    color: gray;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 10px;
+    border-bottom: 3px solid #4db6ac;
+    display: inline-block
+}
+
+.cartelera {
+    display: flex;
+    align-items: center;
+    margin: 15px 20px;
+    gap: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+}
+
+.cartelera-img{
+    position: relative;
+}
+
+.cartelera-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
