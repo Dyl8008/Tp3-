@@ -37,3 +37,26 @@ body{
     top: 350px;
     right: 0;
 }
+.tarjeta-contenido{
+    padding: 30px;
+    position: relative;
+}
+.titulo{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.descripcion{
+    font-size: 17px;
+    color: #777;
+    margin-bottom: 20px;
+}
+.nota {
+    font-size: 15px;
+    color: #999;
+    margin-bottom: 25px;
+}
+.div{
+    border-top: 1px solid #ddd;
+    margin-bottom: 25px;
+}
